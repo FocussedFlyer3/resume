@@ -183,7 +183,7 @@ export default function Page() {
                   title={project.title}
                   descriptions={project.descriptions}
                   tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
+                  link=""
                 />
               );
             })}
@@ -193,10 +193,10 @@ export default function Page() {
 
       <CommandMenu
         links={[
-          ...(RESUME_DATA.personalWebsiteUrl && {
+          {
             url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
-          }),
+            title: "Personal Website (Blog)",
+          },
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
             title: socialMediaLink.name,
