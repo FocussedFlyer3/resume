@@ -1,278 +1,214 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Chee Kong Wong (CK)",
+  initials: "CK",
+  location: "Kuala Lumpur, Malaysia",
+  locationLink: "https://www.google.com/maps/place/Kuala+Lumpur",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Software Developer with passion on technologies and engrossed on building products with attention to details",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Software Developer, I have successfully taken multiple projects from inception to launch 🚀, leading teams effectively and fostering an environment where people can do their best work. Currently, I work mostly with JavaScript, Vue and Node.js. Eager to expand my leadership and technical skills in a forward-thinking environment that fosters professional growth and innovations.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/36317458?v=4",
+  personalWebsiteUrl: "",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "kvnwong0@gmail.com",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/FocussedFlyer3",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/cheekong-wong/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/focussedflyer3",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Western Michigan University",
+      degree: "Bachelor's Degree in Computer Science",
+      start: "2016",
+      end: "2019",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
+      company: "Respond.io",
+      link: "https://respond.io",
+      badges: [],
+      title: "Frontend Developer → Lead Frontend Developer",
       start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      end: "Present",
+      description: [
+        "Drive frontend initiatives and lead the development of client applications, ranging from evolving existing products to incubating new business ideas.",
+        "Work closely with cross-functional teams to ensure the smooth integration of frontend systems with other products within ecosystems.",
+        "Collaborate with product managers, designers, engineers, and other stakeholders to define and prioritize product features and technical requirements.",
+        "Provide technical guidance and mentorship to junior developers in the team.",
+        "Foster a transparent and dynamic engineering culture as well as promoting an architectural mindset within the team.",
+        "Actively promote and integrate cutting-edge frontend technologies and trends to enhance team."
+      ]
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
+      company: "Vision Technology Consulting",
+      link: "",
+      badges: [],
+      title: "Platform Developer",
+      start: "2020",
       end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      description: [
+        "Develop and maintain a SPA website and Hybrid Mobile Applications.",
+        "Ensure operations of platforms including IOS, Android and Web.",
+        "Oversee, Identify and fix issues uncovered from customer feedbacks and testings.",
+        "Performed necessary system upgrades and updates to improve system stability.",
+        "Further optimised applications for performance.",
+        "Proposed technical solutions in solving business problems."
+      ]
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      company: "Vision Technology Consulting",
+      link: "",
+      badges: ['Intern'],
+      title: "Frontend Developer",
+      start: "2019",
+      end: "2020",
+      description: [
+        "Develop and maintain a SPA website with Vue.js and Quasar framework.",
+        "Identify and fix issues uncovered by customer feedback and testing.",
+        "Performed necessary system upgrades and updates to improve system stability.",
+        "Further optimized application for performance.",
+      ]
     },
   ],
   skills: [
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
+    "HTML",
+    "CSS",
+    "PHP",
+    "Bash",
+    "YAML",
+    "Vue",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Firebase",
+    "GIT",
+    "Quasar",
+    "Vuetify",
+    "Tailwind CSS",
+    "Buildkite",
+    "Docker",
+    "GitHub Actions",
+    "GCP Cloud Functions",
+    "AWS Lambda",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Respond.io",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
+        "Frontend Developer",
+        "JavaScript",
+        "Vue",
         "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Vuetify",
+        "VeeValidate",
+        "Vue Query"
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
+      descriptions: [
+        "A hybrid (SPA+SSR) website to manage instant messaging conversations",
+        "Implemented product features in collaboration with cross-functional teams.",
+        "Managed more than 6.5M messages daily.",
+        "Lead Team with structure design of platform modules and RESTful APIs.",
+      ],
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "PetBacker",
       techStack: [
         "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "JavaScript",
+        "Vue",
+        "Webpack",
+        "Cordova",
+        "Quasar",
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
+      descriptions: [
+        "A SPA website and Hybrid Mobile Application for pet lovers to find pet sitters and services",
+        "Redesigned structure of platform to support high volume traffic",
+        "Lead Team with structure design of platform and RESTful APIs"
+      ],
     },
     {
-      title: "Evercast",
+      title: "Forwen Tracker",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Full Stack Developer",
+        "JavaScript",
+        "Vue",
+        "Webpack",
+        "Quasar",
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
+      descriptions: [
+        "A contact-tracing webapp in regards with the COVID-19 pandemic",
+        "Attracted nearly over 20 thousands signups",
+        "Lead Team with initial UI design and platform structure"
+      ],
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
+      title: "CRM Telephony Integration",
+      techStack: [
+        "Full Stack Developer",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+      ],
+      descriptions: [
+        "Middleware server to streamline lead management process by integrating Yeastar with Salesforce CRM",
+      ],
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
+      title: "Learning Management System",
+      techStack: [
+        "Full Stack Developer",
+        "JavaScript",
+        "PHP",
+        "Laravel",
+        "Webpack",
+        "Bootstrap",
+      ],
+      descriptions: [
+        "A platform to track students’ progress in class",
+        "Designed and implemented APIs following RESTful protocols",
+        "Lead Team with initial UI design, database and API structure"
+      ],
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
+      title: "Flight Carrier Recommender",
+      techStack: ["Course Work Project", "JavaScript", "PHP", "Bootstrap"],
+      descriptions: ["A website in determining the best flight carrier for travelling to a desired destination"],
     },
     {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
+      title: "Twitter Clone",
+      techStack: ["Course Work Project", "JavaScript", "jQUERY", "Bootstrap"],
+      descriptions: ["A website where users are able to post and share short messages"],
     },
     {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
+      title: "Tic-Tac-Toe",
+      techStack: ["Side Project", "IOS", "Swift"],
+      descriptions: ["A IOS application of a simple tic-tac-toe game with minimalistic UI"],
     },
     {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+      title: "Movie Ticketing System",
+      techStack: ["Course Work Project", "Java", "JavaFX", "MySQL"],
+      descriptions: ["A Java application in handling a movie ticketing system"],
+    },
+    {
+      title: "Text-based Adventure Game",
+      techStack: ["Course Work Project", "Java", "JavaFX"],
+      descriptions: ["A Java application of a text-based adventure game with minimalistic UI"],
     },
   ],
 } as const;
