@@ -1,4 +1,4 @@
-![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
+![resume](https://github.com/FocussedFlyer3/resume/assets/36317458/19cce1d8-4c0b-4231-9a86-297eb17635a9)
 
 # Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
 
