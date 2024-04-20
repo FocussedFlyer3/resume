@@ -21,7 +21,7 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+            <p className="max-w-lg text-pretty font-mono text-sm text-muted-foreground">
               {RESUME_DATA.about}
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
@@ -123,7 +123,7 @@ export default function Page() {
                       </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end ?? "Present"}
+                      {work.start}{work.end ? ` -  ${work.end}` : ''}
                     </div>
                   </div>
 
@@ -132,7 +132,13 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  <ol className="space-y-1 text-gray-500 list-disc list-inside ">
+                    {work.description.map((description) => {
+                      return (
+                        <li key={description} className="text-justify pl-1">{description}</li>
+                      );
+                    })}
+                  </ol>
                 </CardContent>
               </Card>
             );
@@ -169,13 +175,13 @@ export default function Page() {
 
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-3">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
                   key={project.title}
                   title={project.title}
-                  description={project.description}
+                  descriptions={project.descriptions}
                   tags={project.techStack}
                   link={"link" in project ? project.link.href : undefined}
                 />
@@ -187,10 +193,10 @@ export default function Page() {
 
       <CommandMenu
         links={[
-          {
+          ...(RESUME_DATA.personalWebsiteUrl && {
             url: RESUME_DATA.personalWebsiteUrl,
             title: "Personal Website",
-          },
+          }),
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
             title: socialMediaLink.name,
