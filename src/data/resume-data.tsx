@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   summary:
     "As a Software Developer, I have successfully taken multiple projects from inception to launch 🚀, leading teams effectively and fostering an environment where people can do their best work. Currently, I work mostly with JavaScript, Vue and Node.js. Eager to expand my leadership and technical skills in a forward-thinking environment that fosters professional growth and innovations.",
   avatarUrl: "https://avatars.githubusercontent.com/u/36317458?v=4",
-  personalWebsiteUrl: "",
+  personalWebsiteUrl: "https://focussedflyer3.hashnode.dev",
   contact: {
     tel: "",
     email: "kvnwong0@gmail.com",
