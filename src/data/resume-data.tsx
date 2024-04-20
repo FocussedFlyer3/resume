@@ -121,7 +121,7 @@ export const RESUME_DATA = {
         "Vue Query"
       ],
       descriptions: [
-        "A hybrid (SPA+SSR) website to manage instant messaging conversations",
+        "A hybrid (SPA+SSR) website to manage instant messaging conversations with AI",
         "Implemented product features in collaboration with cross-functional teams.",
         "Managed more than 6.5M messages daily.",
         "Lead Team with structure design of platform modules and RESTful APIs.",
